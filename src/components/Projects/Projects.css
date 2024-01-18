@@ -1,0 +1,107 @@
+.projects-section-wrapper {
+    height: 738px;
+    background-color: #F2F2F2;
+    position: relative;
+}
+
+.projects-section-one {
+    width: 430px;
+    position: absolute;
+    top: 274px;
+    /* left: 200px; */
+}
+
+.projects-section-one-heading1, .projects-section-one-heading2 {
+    color: var(--black-color);
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 0;
+}
+
+.projects-section-one-para {
+    margin-top: 10px;
+    width: 320px;
+    color: #606060;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.projects-section-one-next, .projects-section-one-prev {
+    padding: 10px 15px;
+    border: none;
+    background-color: var(--lightgrey-color);
+    margin: 40px 10px 0 0;
+
+}
+
+
+.projects-section-one-more {
+    width: 100px;
+    position: absolute;
+    top: 397px;
+    left: 240px;
+    color: #171717;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.projects-section-two-img1 {
+    background-image: url('../../assets/Images/bathroom.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 274px;
+    left: 412px;
+    width: 425px;
+    height: 638px;
+}
+
+.projects-section-two-bgimg1 {
+    width: 135.5px;
+    height: 109.001px;
+    background-image: url('../../assets/Images/Group\ 4.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 782px;
+    left: 392px;
+
+}
+
+.projects-section-two-img1-gradiant {
+    background-image: linear-gradient(to right, rgba(243, 242, 242, 0.108), #FBB32E);
+    position: absolute;
+    top: 586px;
+    left: 412px;
+    width: 425px;
+    height: 284px;
+}
+
+.projects-section-two-img2 {
+    background: rgb(251, 179, 46);
+    background: linear-gradient(0deg, rgba(251, 179, 46, 1) 0%, rgba(196, 194, 189, 1) 50%);
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 274px;
+    left: 875px;
+    width: 425px;
+    height: 598px;
+}
+
+.projects-section-two-bgimg2 {
+    width: 135.5px;
+    height: 109.001px;
+    background-image: url('../../assets/Images/Group\ 4.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 782px;
+    left: 856px;
+}

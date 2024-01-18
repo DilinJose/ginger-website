@@ -1,0 +1,156 @@
+.header-wrapper {
+    position: relative;
+    color: white;
+}
+
+.header-wrapper-image {
+    width: 100%;
+    object-fit: contain;
+}
+
+.header-wrapper-heading1, .header-wrapper-heading2 {
+    position: absolute;
+    top: 15vh;
+    left: 30vw;
+    color: var(--grey-color);
+    font-size: 65px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.rectangle-5 {
+    background-color: white;
+    position: absolute;
+    top: 85%;
+    left: 65%;
+    width: 332px;
+    height: 121px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.rectangle-5-header {
+    width: 120px;
+    height: 147px;
+    text-align: center;
+    color: var(--lightgrey-color);
+    font-size: 98px;
+    font-style: normal;
+    font-weight: 700;
+    margin: 0;
+}
+
+.rectangle-5-prev {
+}
+
+.rectangle-5-next {}
+
+
+@media only screen and (min-width: 1600px) {
+
+
+    .rectangle-5 {
+        width: 21.2vw;
+        height: 12.8vh;
+    }
+}
+
+@media only screen and (max-width: 1600px) {
+    .header-wrapper-heading1, .header-wrapper-heading2 {
+        top: 12vh;
+        font-size: 55px;
+        font-weight: 700;
+    }
+
+    .rectangle-5 {
+        width: 21.2vw;
+        height: 8.8vh;
+    }
+
+    .rectangle-5-header {
+        width: 100px;
+        height: 117px;
+        font-size: 78px;
+        font-weight: 600;
+    }
+}
+
+
+@media only screen and (max-width: 1200px) {
+    .header-wrapper-heading1, .header-wrapper-heading2 {
+        top: 7vh;
+        font-size: 45px;
+        font-weight: 600;
+    }
+
+    .rectangle-5 {
+        width: 21.2vw;
+        height: 6.8vh;
+    }
+
+    .rectangle-5-header {
+        width: 80px;
+        height: 87px;
+        font-size: 58px;
+        font-weight: 500;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .header-wrapper-heading1, .header-wrapper-heading2 {
+        top: 5vh;
+        font-size: 35px;
+        font-weight: 500;
+    }
+
+    .rectangle-5 {
+        width: 21.2vw;
+        height: 4.8vh;
+    }
+
+    .rectangle-5-header {
+        width: 60px;
+        height: 67px;
+        font-size: 48px;
+        font-weight: 400;
+    }
+}
+
+@media only screen and (max-width: 760px) {
+    .header-wrapper-heading1, .header-wrapper-heading2 {
+        top: 3vh;
+        font-size: 25px;
+        font-weight: 400;
+    }
+
+    .rectangle-5 {
+        top: 81%;
+        width: 21.2vw;
+        height: 4.8vh;
+    }
+
+    .rectangle-5-header {
+        width: 60px;
+        height: 67px;
+        font-size: 48px;
+        font-weight: 400;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .header-wrapper-heading1, .header-wrapper-heading2 {
+        top: 2vh;
+        font-size: 15px;
+        font-weight: 300;
+    }
+
+    .rectangle-5-header {
+        width: 40px;
+        height: 47px;
+        font-size: 38px;
+        font-weight: 300;
+    }
+}

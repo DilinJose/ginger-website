@@ -1,0 +1,39 @@
+.chooseus-wrapper {
+    height: 796px;
+    position: relative;
+
+}
+
+.chooseus-wrapper-one {
+    position: absolute;
+    top: 340px;
+    left: 0;
+}
+
+.chooseus-wrapper-one-heading {
+    color: var(--black-color);
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.chooseus-wrapper-two {
+    width: 100%;
+    position: absolute;
+    top: 529px;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.chooseus-wrapper-dots {
+    background-image: url('../../assets//Images/dotes-01-ri4.png');
+    width: 1048px;
+    height: 677px;
+    position: absolute;
+    left: -325px;
+top: 496px;
+}

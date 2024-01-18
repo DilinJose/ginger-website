@@ -1,0 +1,42 @@
+.main-card {
+  position: relative;
+}
+
+.projects-div {
+  background-color: #F2F2F2;
+}
+
+.chooseus-div {
+  background-color: #FEF5E7;
+}
+
+.blog-div{
+  z-index: -5;
+}
+.designers-div {
+  background-color: #FEF5E7;
+}
+.footer-div{
+  background-color: #F2F2F2;
+}
+
+
+@media only screen and (max-width: 1600px) {
+
+}
+
+@media only screen and (max-width: 1200px) {
+
+}
+
+@media only screen and (max-width: 900px) {
+
+}
+
+@media only screen and (max-width: 760px) {
+
+}
+
+@media only screen and (max-width: 480px) {
+
+}

@@ -1,0 +1,94 @@
+.blog-wrapper {
+    height: 993px;
+    position: relative;
+}
+
+.blog-wrapper-one {
+    background-color: white;
+/* opacity: 1; */
+    box-shadow: 0px 0px 25px 3px #b9b9b9;
+    width: 100%;
+    height: 663px;
+    position: absolute;
+    left: 0;
+    top: 443px;
+    z-index: 1;
+}
+
+.blog-card-one {
+    position: absolute;
+    left: 242px;
+    top: 58px;
+}
+
+.blog-wrapper-one-heading {
+    color: #171717;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+
+.blog-card-two {
+    width: 1000px;
+    position: absolute;
+    left: 242px;
+    top: 248px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.blog-wrapper-one-img {
+    border-radius: 50%;
+}
+
+.blog-wrapper-one-img-card {
+    margin-right: 52px;
+}
+
+.blog-wrapper-one-desc {
+    width: 80%;
+    color: #606060;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 45px;
+}
+
+
+.blog-wrapper-one-name {
+    color: #171717;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.blog-wrapper-one-change {
+    position: absolute;
+    bottom: 41px;
+    right: 71px;
+}
+
+.blog-wrapper-one-change-prev {
+    margin-right: 20px;
+}
+
+.blog-wrapper-one-change-next {
+    margin-left: 20px;
+}
+
+.blog-wrapper-one-dotsvgblue {
+    position: absolute;
+    left: -55px;
+    top: 152px;
+    z-index: -1;
+}
+
+.blog-wrapper-one-dotsvgred {
+    position: absolute;
+    right: 49px;
+    top: 65px;
+}

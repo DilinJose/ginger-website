@@ -1,0 +1,24 @@
+:root {
+  --grey-color: #606060;
+  --lightgrey-color: #D5D5D5;
+  --yellow-color: #FBB32E;
+  --black-color: black;
+}
+
+*, *::after, *::before {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+width: 100%;
+/* overflow-x: hidden; */
+  /* width: 1960px; */
+  /* height: 8240px; */
+}
+
+.border {
+  border: 2px solid rgb(18, 0, 118);
+}
