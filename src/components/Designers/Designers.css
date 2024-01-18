@@ -24,7 +24,7 @@
 
 .designers-wrapper-two {
     position: absolute;
-    left: 398px;
+    right: 0;
     top: 330px;
     display: flex;
     justify-content: space-evenly;
