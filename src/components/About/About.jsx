@@ -4,7 +4,7 @@ import { DotSvg } from "./svg";
 
 const About = () => {
   return (
-    <div className="container border">
+    <div className="container">
       <div className="about-card">
         <div className="about-section">
           <div className="about-section-card-one">
