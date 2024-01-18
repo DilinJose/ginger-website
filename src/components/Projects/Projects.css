@@ -8,7 +8,6 @@
     width: 430px;
     position: absolute;
     top: 274px;
-    /* left: 200px; */
 }
 
 .projects-section-one-heading1, .projects-section-one-heading2 {
@@ -35,9 +34,7 @@
     border: none;
     background-color: var(--lightgrey-color);
     margin: 40px 10px 0 0;
-
 }
-
 
 .projects-section-one-more {
     width: 100px;
@@ -71,7 +68,6 @@
     position: absolute;
     top: 782px;
     left: 392px;
-
 }
 
 .projects-section-two-img1-gradiant {

@@ -1,18 +1,18 @@
 .about-card {
     position: relative;
-    /* height: 909px; */
-height: 90vh;
+    height: 909px;
 }
 
 .about-section {
     display: flex;
     align-items: center;
     margin-top: 90px;
-
 }
 
 .about-section-card-one {
-    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .about-section-svg {
@@ -64,8 +64,6 @@ height: 90vh;
     align-items: baseline;
 }
 
-
-
 .about-section-card-three {
     position: absolute;
     right: 0;
@@ -113,7 +111,6 @@ height: 90vh;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-
 }
 
 @media only screen and (max-width: 1600px) {
@@ -137,29 +134,30 @@ height: 90vh;
     .about-section-numbers {
         margin: 0 48px;
     }
-    
+
     .about-section-customers {
         margin: 0 48px;
     }
-    
+
     .about-section-dot {
         margin: 0 48px;
     }
+
     .about-section-card-three {
         margin-top: 65px;
     }
- 
+
 }
 
 @media only screen and (max-width: 1400px) {
     .about-section-numbers {
         margin: 0 38px;
     }
-    
+
     .about-section-customers {
         margin: 0 38px;
     }
-    
+
     .about-section-dot {
         margin: 0 38px;
     }
@@ -184,14 +182,15 @@ height: 90vh;
     .about-section-numbers {
         margin: 0 28px;
     }
-    
+
     .about-section-customers {
         margin: 0 28px;
     }
-    
+
     .about-section-dot {
         margin: 0 28px;
     }
+
     .about-section-card-three {
         margin-top: 55px;
     }
@@ -211,28 +210,43 @@ height: 90vh;
     .about-section-heading1 {
         font-size: 35px;
     }
+
     .about-section-numbers {
         margin: 0 18px;
     }
-    
+
     .about-section-customers {
         margin: 0 18px;
     }
-    
+
     .about-section-dot {
         margin: 0 18px;
     }
+
     .about-section-card-three {
         margin-top: 45px;
     }
+
+    .about-section-card-four {
+        width: 441px;
+        height: 100px;
+    }
+
 }
 
 @media only screen and (max-width: 760px) {
     .about-section {
-        align-items: center;
+        align-items: baseline;
         justify-content: space-between;
         flex-wrap: wrap;
+        margin-top: 20px;
+    }
 
+    .about-section-dot {
+        width: 1px;
+        border: 1px solid var(--yellow-color);
+        border-radius: 50%;
+        margin: 0 18px;
     }
 
     .about-section-svg {
@@ -248,20 +262,28 @@ height: 90vh;
     .about-section-heading1 {
         font-size: 35px;
     }
+
+    .about-section-card-three {
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
     .about-section-card-three {
         flex-wrap: wrap;
     }
-    .about-section-card-three {
-        margin-top: 35px;
-    }
+
+
     .about-section-card-four {
-    
-        margin-top: 20px;
-      
-      }
+        width: 341px;
+        height: 80px;
+    }
 }
 
 @media only screen and (max-width: 480px) {
+    .about-card {
+        height: 1025px;
+    }
+
     .about-section-card-three {
         margin-top: 25px;
     }
