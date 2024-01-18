@@ -34,7 +34,7 @@
 .designers-wrapper-two-card {
     width: 247px;
     height: 360px;
-    margin: 10px;
+    margin: 0 34px ;
 }
 
 .designers-wrapper-two-img {
@@ -105,7 +105,7 @@
         align-items: center;
         justify-content: center;
         flex-direction: column;
-        height: 1184px;
+        height: 984px;
 
     }
 
@@ -154,10 +154,15 @@
 
 @media only screen and (max-width: 760px) {
     .designers-wrapper {
-        height: 1184px;
+        height: 1584px;
     }
     .designers-wrapper-two {
         flex-wrap: wrap;
+    }
+    .designers-wrapper-two-card {
+
+        margin-bottom: 35px;
+        
     }
 }
 

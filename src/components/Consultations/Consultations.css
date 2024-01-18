@@ -191,7 +191,7 @@
 @media only screen and (max-width: 760px) {
     .consultations-wrapper {
         flex-wrap: wrap;
-        margin: 286px 0 311px 0;
+        margin: 86px 0 311px 0;
         align-items: center;
 
     }

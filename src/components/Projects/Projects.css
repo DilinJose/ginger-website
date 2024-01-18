@@ -1,5 +1,5 @@
 .projects-section-wrapper {
-    height: 738px;
+    height: 668px;
     background-color: #F2F2F2;
     position: relative;
     display: flex;
@@ -8,7 +8,7 @@
 }
 
 .projects-section-one {
-
+    margin-right: 82px;
     margin-top: 185px;
     /* position: relative; */
 
@@ -61,8 +61,11 @@
         url('../../assets/Images/bathroom.png');
     background-size: cover;
     background-repeat: no-repeat;
-    width: 388px;
-    height: 638px;
+    /* width: 388px;
+    height: 638px; */
+    width: 348px;
+    height: 528px;
+
     position: relative;
 
 }
@@ -99,8 +102,10 @@
     background: linear-gradient(0deg, rgba(251, 179, 46, 1) 0%, rgba(196, 194, 189, 1) 50%);
     background-size: contain;
     background-repeat: no-repeat;
-    width: 388px;
-    height: 638px;
+    /* width: 388px;
+    height: 638px; */
+    width: 348px;
+    height: 528px;
     position: relative;
 }
 
@@ -115,7 +120,11 @@
     left: -15px;
 }
 
-@media only screen and (max-width: 1600px) {}
+@media only screen and (max-width: 1600px) {
+    .projects-section-one-para {
+        width: 85%;
+    }
+}
 
 @media only screen and (max-width: 1200px) {
 
