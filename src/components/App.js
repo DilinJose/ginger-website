@@ -6,12 +6,14 @@ import Consultations from "./Consultations/Consultations";
 import Designers from "./Designers/Designers";
 import Footer from "./Footer/Footer";
 import Header from "./Header/Header";
+import Navbar from "./Navbar/Navbar";
 import Projects from "./Projects/Projects";
 import Services from "./Services/Services";
 
 function App() {
   return (
     <div className="main-card">
+      <Navbar/>
       <Header />
       <About />
       <div className="projects-div">
