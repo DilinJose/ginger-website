@@ -24,7 +24,7 @@
 
 .designers-wrapper-two {
     position: absolute;
-    left: 418px;
+    left: 398px;
     top: 330px;
     display: flex;
     justify-content: space-evenly;
@@ -32,13 +32,15 @@
 }
 
 .designers-wrapper-two-card {
-    width: 267px;
+    width: 247px;
     height: 360px;
-    margin: 5px;
+    margin: 10px;
 }
 
 .designers-wrapper-two-img {
-    object-fit: contain;
+    object-fit: cover;
+    width: 247px;
+    height: 342px;
 }
 
 .designers-wrapper-two-name {
