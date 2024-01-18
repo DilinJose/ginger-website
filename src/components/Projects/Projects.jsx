@@ -1,9 +1,19 @@
 import React from "react";
 import "./Projects.css";
+import img1 from '../../assets/Images/Path 292.svg'
+import img2 from '../../assets/Images/Path 81.svg'
+import img3 from '../../assets/Images/Rectangle 52.svg'
 
 const Projects = () => {
   return (
     <div className="container projects-section-wrapper">
+      <div className="projects-section-light">
+        <img className="projects-section-light1" src={img3}/>
+        <img className="projects-section-light2 ms-1" src={img2}/>
+
+        <img className="projects-section-light3" src={img1}/>
+
+      </div>
       <div className="projects-section-one">
         <h1 className="projects-section-one-heading1">
           Our Latest

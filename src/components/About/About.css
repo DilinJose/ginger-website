@@ -1,6 +1,6 @@
 .about-card {
     position: relative;
-    height: 909px;
+    height: 786px;
 }
 
 .about-section {
@@ -36,6 +36,12 @@
     line-height: normal;
     margin: 0 98px;
     z-index: 1;
+    position: relative;
+}
+.about-section-year-svg{
+    position: absolute;
+    top: 225px;
+    left: 200px;
 }
 
 .about-section-heading1 {
@@ -116,6 +122,14 @@
     align-items: center;
 }
 
+@media only screen and (min-width: 1600px) {
+    .about-section-year-svg{
+     
+        /* top: 225px; */
+        left: 250px;
+    }
+}
+
 @media only screen and (max-width: 1600px) {
     .about-section-svg {
         width: 115.5px;
@@ -147,7 +161,7 @@
     }
 
     .about-section-card-three {
-        margin-top: 65px;
+        margin-top: 45px;
     }
 
 }
@@ -209,6 +223,10 @@
         font-size: 216px;
         margin: 0 58px;
     }
+    .about-section-year-svg{
+        top: 195px;
+        left: 220px;
+    }
 
     .about-section-heading1 {
         font-size: 35px;
@@ -244,7 +262,10 @@
         flex-wrap: wrap;
         margin-top: 20px;
     }
-
+    .about-section-year-svg{
+        top: 225px;
+        left: 30px;
+    }
     .about-section-dot {
         width: 1px;
         border: 1px solid var(--yellow-color);

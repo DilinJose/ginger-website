@@ -34,7 +34,7 @@
 .designers-wrapper-two-card {
     width: 247px;
     height: 360px;
-    margin: 0 34px ;
+    margin: 0 26px ;
 }
 
 .designers-wrapper-two-img {
@@ -135,11 +135,7 @@
     }
 
     .designers-wrapper-two-card {
-
-        /* border: 1px solid black; */
-        /* margin-right: 30px; */
-        /* width: 267px;
-        height: 360px; */
+        margin: 0 16px ;
     }
 }
 

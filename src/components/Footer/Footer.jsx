@@ -19,7 +19,7 @@ const Footer = () => {
             type="text"
             placeholder="Email Id"
           />
-          <button className="footer-contact-sent">Sent</button>
+          <button className="footer-contact-sent mt-1">Sent</button>
         </div>
         <div className="footer-contact-connect">
           <img src={connect} alt="Connect" />

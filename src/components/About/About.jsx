@@ -9,16 +9,31 @@ const About = () => {
         <div className="about-section">
           <div className="about-section-card-one">
             <div className="about-section-svg">{/* <DotSvg /> */}</div>
-            <h1 className="about-section-year">25</h1>
+            <h1 className="about-section-year">
+            
+              25
+              <svg
+              className="about-section-year-svg"
+                xmlns="http://www.w3.org/2000/svg"
+                width="2"
+                height="560"
+                viewBox="0 0 2 560"
+                fill="none"
+              >
+                <path d="M1 0V560" stroke="#0A0A0A" stroke-width="0.5" />
+              </svg>
+            </h1>
           </div>
           <div className="about-section-card-two">
-            <h1 className="about-section-heading1">Year experience <br/> in interior designing</h1>
+            <h1 className="about-section-heading1">
+              Year experience <br /> in interior designing
+            </h1>
             <p className="about-section-para">
               With an experience of more than 26 years, we pride ourselves in
-              ensuring that we provide our clients with exquisite design and excellent
-              quality service. Responsive to our Clients Vision, we are committed to
-              design that expresses the interrelationships between architecture and space
-              and to create a
+              ensuring that we provide our clients with exquisite design and
+              excellent quality service. Responsive to our Clients Vision, we
+              are committed to design that expresses the interrelationships
+              between architecture and space and to create a
             </p>
           </div>
         </div>
@@ -31,7 +46,7 @@ const About = () => {
               <br />
               Customers
             </h6>
-          </div >
+          </div>
           <div className="about-section-dot mb-2"></div>
           <div className="mb-2">
             <h1 className="about-section-numbers">10+</h1>
