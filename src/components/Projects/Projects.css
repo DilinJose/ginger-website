@@ -2,26 +2,32 @@
     height: 738px;
     background-color: #F2F2F2;
     position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
 }
 
 .projects-section-one {
-    width: 430px;
-    position: absolute;
-    top: 274px;
+    margin-top: 185px;
 }
 
-.projects-section-one-heading1, .projects-section-one-heading2 {
+.projects-section-two {
+    display: flex;
+    margin-top: 185px;
+}
+
+.projects-section-one-heading1 {
     color: var(--black-color);
     font-size: 45px;
     font-style: normal;
     font-weight: 700;
-    line-height: normal;
-    margin: 0;
+    margin-top: 62px;
+    padding: 0;
 }
 
 .projects-section-one-para {
     margin-top: 10px;
-    width: 320px;
+    /* width: 80%;  */
     color: #606060;
     font-size: 14px;
     font-style: normal;
@@ -38,9 +44,6 @@
 
 .projects-section-one-more {
     width: 100px;
-    position: absolute;
-    top: 397px;
-    left: 240px;
     color: #171717;
     font-size: 20px;
     font-style: normal;
@@ -49,14 +52,30 @@
 }
 
 .projects-section-two-img1 {
-    background-image: url('../../assets/Images/bathroom.png');
-    background-size: contain;
+    background: linear-gradient(to top right, rgba(0, 0, 0, 0), rgba(239, 239, 239, 0) 50%),
+        linear-gradient(180deg, rgba(243, 242, 242, 0.108) 50%, #FBB32E 100%, transparent),
+        url('../../assets/Images/bathroom.png');
+    background-size: cover;
     background-repeat: no-repeat;
-    position: absolute;
-    top: 274px;
-    left: 412px;
-    width: 425px;
+    width: 388px;
     height: 638px;
+    position: relative;
+
+}
+
+.projects-section-two-cardone {
+    position: relative;
+}
+
+.projects-section-two-heading1 {
+    position: absolute;
+    left: 50px;
+    bottom: 50px;
+    color: #000;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
 }
 
 .projects-section-two-bgimg1 {
@@ -66,17 +85,9 @@
     background-size: contain;
     background-repeat: no-repeat;
     position: absolute;
-    top: 782px;
-    left: 392px;
-}
+    bottom: -15px;
+    left: -15px;
 
-.projects-section-two-img1-gradiant {
-    background-image: linear-gradient(to right, rgba(243, 242, 242, 0.108), #FBB32E);
-    position: absolute;
-    top: 586px;
-    left: 412px;
-    width: 425px;
-    height: 284px;
 }
 
 .projects-section-two-img2 {
@@ -84,11 +95,9 @@
     background: linear-gradient(0deg, rgba(251, 179, 46, 1) 0%, rgba(196, 194, 189, 1) 50%);
     background-size: contain;
     background-repeat: no-repeat;
-    position: absolute;
-    top: 274px;
-    left: 875px;
-    width: 425px;
-    height: 598px;
+    width: 388px;
+    height: 638px;
+    position: relative;
 }
 
 .projects-section-two-bgimg2 {
@@ -98,6 +107,73 @@
     background-size: contain;
     background-repeat: no-repeat;
     position: absolute;
-    top: 782px;
-    left: 856px;
+    bottom: -15px;
+    left: -15px;
 }
+
+@media only screen and (max-width: 1600px) {}
+
+@media only screen and (max-width: 1200px) {
+
+    .projects-section-one-heading1 {
+        text-align: center;
+    }
+
+    .projects-section-wrapper {
+        height: auto;
+
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .projects-section-one {
+        margin-top: 18px;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .projects-section-two {
+        margin-top: 18px;
+        align-items: center;
+        justify-content: start;
+    }
+
+    .projects-section-two-img1, .projects-section-two-img2 {
+        height: 560px;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .projects-section-wrapper {
+        height: auto;
+
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .projects-section-one {
+        margin-top: 18px;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .projects-section-two {
+        margin-top: 18px;
+
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media only screen and (max-width: 760px) {}
+
+@media only screen and (max-width: 480px) {}

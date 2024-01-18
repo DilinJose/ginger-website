@@ -15,10 +15,10 @@ const About = () => {
             <h1 className="about-section-heading1">Year experience <br/> in interior designing</h1>
             <p className="about-section-para">
               With an experience of more than 26 years, we pride ourselves in
-              ensuring<br/> that we provide our clients with exquisite design and excellent
-              quality<br/> service. Responsive to our Clients Vision, we are committed to
-              design that<br/> expresses the interrelationships between architecture and space
-              and to<br/>create a
+              ensuring that we provide our clients with exquisite design and excellent
+              quality service. Responsive to our Clients Vision, we are committed to
+              design that expresses the interrelationships between architecture and space
+              and to create a
             </p>
           </div>
         </div>

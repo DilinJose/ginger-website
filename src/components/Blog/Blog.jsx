@@ -8,14 +8,14 @@ const Blog = () => {
     <div className="container blog-wrapper">
       <div className="blog-wrapper-one">
         <div className="blog-card-one">
-          <h1 className="blog-wrapper-one-heading">Thanks for your sweet</h1>
-          <h1 className="blog-wrapper-one-heading">words to us</h1>
+          <h1 className="blog-wrapper-one-heading">Thanks for your sweet<br/>words to us</h1>
+          {/* <h1 className="blog-wrapper-one-heading">words to us</h1> */}
         </div>
         <div className="blog-card-two">
           <div className="blog-wrapper-one-img-card">
-          <div className="blog-wrapper-one-dotsvgblue">
-          <DotsGreySvg />
-        </div>
+            <div className="blog-wrapper-one-dotsvgblue">
+              <DotsGreySvg />
+            </div>
             <img
               className="blog-wrapper-one-img"
               src={ourTeam}
@@ -60,7 +60,7 @@ const Blog = () => {
             />
           </svg>
         </div>
-       
+
         <div className="blog-wrapper-one-dotsvgred">
           <DotsRedSvg />
         </div>

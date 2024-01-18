@@ -11,7 +11,6 @@
 .consultations-wrapper-one {
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
 }
 
 .consultations-wrapper-one-connect-headings {
@@ -77,4 +76,200 @@
     font-weight: 500;
     line-height: normal;
 
+}
+
+@media only screen and (max-width: 1600px) {}
+
+@media only screen and (max-width: 1200px) {
+    .consultations-wrapper {
+        flex-wrap: wrap;
+        margin: 146px 0 311px 0;
+        align-items: center;
+
+    }
+
+    .consultations-wrapper-one {
+        align-items: center;
+        margin: 20px;
+    }
+
+    .consultations-wrapper-one {
+        width: 100%;
+    }
+
+    .consultations-wrapper-two {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .consultations-wrapper-one-input {
+        width: 623px;
+        height: 86px;
+
+    }
+
+    .btn-callback, .btn-refer {
+        width: 150px;
+        height: 86px;
+        padding: 13px;
+    }
+
+    .consultations-wrapper-one-connect-headings {
+        font-size: 45px;
+    }
+
+    .consultations-wrapper-one-input {
+        font-size: 23px;
+    }
+
+    .btn-callback, .btn-refer {
+        font-size: 23px;
+    }
+
+}
+
+@media only screen and (max-width: 900px) {
+    .consultations-wrapper {
+        flex-wrap: wrap;
+        /* margin: 146px 0 311px 0; */
+        align-items: center;
+
+    }
+
+    .consultations-wrapper-one {
+        align-items: center;
+        margin: 20px;
+    }
+
+    .consultations-wrapper-one {
+        width: 100%;
+    }
+
+    .consultations-wrapper-two {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .consultations-wrapper-one-input {
+        width: 523px;
+        height: 76px;
+    }
+
+    .btn-callback, .btn-refer {
+        width: 150px;
+        height: 76px;
+        padding: 11px;
+    }
+
+    .consultations-wrapper-one-connect-headings {
+        font-size: 35px;
+    }
+
+    .consultations-wrapper-one-input {
+        font-size: 18px;
+    }
+
+    .btn-callback, .btn-refer {
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width: 760px) {
+    .consultations-wrapper {
+        flex-wrap: wrap;
+        margin: 286px 0 311px 0;
+        align-items: center;
+
+    }
+
+    .consultations-wrapper-one {
+        align-items: center;
+        margin: 20px;
+    }
+
+    .consultations-wrapper-one {
+        width: 100%;
+    }
+
+    .consultations-wrapper-two {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .consultations-wrapper-one-input {
+        width: 423px;
+        height: 66px;
+    }
+
+    .btn-callback, .btn-refer {
+        width: 150px;
+        height: 66px;
+        padding: 11px;
+    }
+
+    .consultations-wrapper-one-connect-headings {
+        font-size: 28px;
+    }
+
+    .consultations-wrapper-one-input {
+        font-size: 15px;
+    }
+
+    .btn-callback, .btn-refer {
+        font-size: 15px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .consultations-wrapper {
+        flex-wrap: wrap;
+        margin: 146px 0 311px 0;
+        align-items: center;
+
+    }
+
+    .consultations-wrapper-one {
+        align-items: center;
+        flex-wrap: wrap;
+        margin: 20px;
+    }
+
+    .consultations-wrapper-one {
+        width: 100%;
+    }
+
+    .consultations-wrapper-two {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .consultations-wrapper-one-input {
+        width: 323px;
+        height: 56px;
+    }
+
+    .btn-callback, .btn-refer {
+        width: 120px;
+        height: 56px;
+    }
+
+    .consultations-wrapper-one-connect-headings {
+        font-size: 22px;
+    }
+
+    .consultations-wrapper-one-input {
+        font-size: 12px;
+    }
+
+    .btn-callback, .btn-refer {
+        font-size: 12px;
+    }
 }

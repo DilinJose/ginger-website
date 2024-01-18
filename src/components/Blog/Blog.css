@@ -5,7 +5,6 @@
 
 .blog-wrapper-one {
     background-color: white;
-/* opacity: 1; */
     box-shadow: 0px 0px 25px 3px #b9b9b9;
     width: 100%;
     height: 663px;
@@ -91,4 +90,120 @@
     position: absolute;
     right: 49px;
     top: 65px;
+}
+
+@media only screen and (max-width: 1600px) {}
+
+@media only screen and (max-width: 1200px) {
+    .blog-card-one {
+        left: 142px;
+        top: 38px;
+    }
+
+    .blog-card-two {
+        left: 122px;
+        top: 248px;
+
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    
+    .blog-card-one {
+        height: 1056px;
+        width: 100%;
+        left: 0;
+
+    }
+
+    .blog-card-two {
+        left: 0;
+        top: 248px;
+
+    }
+
+    .blog-wrapper-one-heading {
+        text-align: center;
+    }
+
+    .blog-card-two {
+        width: 100%;
+        top: 188px;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .blog-wrapper-one-desc {
+        padding: 20px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .blog-wrapper-one-img-card {
+        margin-right: 0;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .blog-wrapper-one {
+        height: 868px;
+        top: 243px;
+    }
+
+    .blog-card-one {
+        width: 100%;
+        left: 0;
+
+    }
+
+    .blog-card-two {
+        left: 0;
+        top: 248px;
+
+    }
+
+    .blog-wrapper-one-heading {
+        text-align: center;
+    }
+
+    .blog-card-two {
+        width: 100%;
+        top: 188px;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .blog-wrapper-one-desc {
+        padding: 20px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .blog-wrapper-one-img-card {
+        margin-right: 0;
+    }
+
+    .blog-wrapper-one-name {
+        width: 100%;
+        text-align: center;
+    }
+
+}
+
+@media only screen and (max-width: 760px) {
+    .blog-wrapper-one {
+        top: 243px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .blog-wrapper-one {
+        top: 143px;
+    }
+    .blog-card-two {
+        top: 218px;
+      
+    }
 }

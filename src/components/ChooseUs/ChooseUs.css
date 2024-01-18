@@ -10,6 +10,8 @@
     left: 0;
 }
 
+
+
 .chooseus-wrapper-one-heading {
     color: var(--black-color);
     font-size: 45px;
@@ -26,14 +28,96 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    flex-wrap: wrap;
+}
+
+.chooseus-wrapper-two div {
+    margin: 10px 20px 10px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .chooseus-wrapper-dots {
-    background-image: url('../../assets//Images/dotes-01-ri4.png');
-    width: 1048px;
+    background: url('../../assets//Images/dotes-01-ri4.png');
+    background-size: 100%;
+    /* width: 1048px;
+    height: 677px; */
     height: 677px;
+    width: 75%;
+    /* height: auto; */
     position: absolute;
     left: -325px;
-top: 496px;
+    top: 496px;
+}
+
+@media only screen and (max-width: 1600px) {}
+
+@media only screen and (max-width: 1200px) {
+
+    .chooseus-wrapper-one {
+        top: 240px;
+    }
+
+    .chooseus-wrapper-two {
+        top: 429px;
+    }
+
+    .chooseus-wrapper-two div {
+        margin: 10px 20px 10px 10px;
+    }
+    .chooseus-wrapper-dots {
+        /* width: 50%;
+        height: auto;
+        position: absolute;
+        left: -325px;
+        top: 496px; */
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .chooseus-wrapper-one {
+        top: 140px;
+    }
+
+    .chooseus-wrapper-two {
+        top: 329px;
+        flex-wrap: wrap;
+    }
+
+    .chooseus-wrapper-two div {
+        margin: 10px 20px 10px 10px;
+    }
+    .chooseus-wrapper-dots {
+        height: 677px;
+        width: 100%;
+    }
+
+}
+
+@media only screen and (max-width: 760px) {
+    .chooseus-wrapper-one {
+        width: 100%;
+        top: 80px;
+    }
+
+    .chooseus-wrapper-one-heading {
+        text-align: center;
+    }
+
+    .chooseus-wrapper-two div {
+        margin: 10px 20px 10px 10px;
+    }
+    .chooseus-wrapper-dots {
+        height: 577px;
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .chooseus-wrapper-dots {
+        bottom: 0;
+        height: 477px;
+        width: 150%;
+    }
 }

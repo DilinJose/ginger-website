@@ -1,6 +1,10 @@
 .designers-wrapper {
     height: 874px;
     position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
 }
 
 .designers-wrapper-one {
@@ -26,19 +30,16 @@
     justify-content: space-evenly;
     align-items: baseline;
     flex-wrap: wrap;
-    width: 70%;
 }
 
 .designers-wrapper-two-card {
-    /* border: 1px solid black; */
-    /* margin-right: 30px; */
     width: 267px;
     height: 360px;
+    margin: 5px;
 }
-.designers-wrapper-two-img{
+
+.designers-wrapper-two-img {
     object-fit: contain;
-    /* width: 247px;
-    height: 340px;   */
 }
 
 .designers-wrapper-two-name {
@@ -57,34 +58,104 @@
     font-weight: 300;
     line-height: normal;
 }
-.designers-wrapper-two-rectangle1{
+
+.designers-wrapper-two-rectangle1 {
     position: absolute;
     top: -21px;
     left: 30px;
 }
-.designers-wrapper-two-rectangle2{
+
+.designers-wrapper-two-rectangle2 {
     position: absolute;
     top: -14px;
     left: 18px;
 }
 
-.designers-wrapper-two-rectangle3{
+.designers-wrapper-two-rectangle3 {
     position: absolute;
     top: -21px;
     left: 329px;
 }
-.designers-wrapper-two-rectangle4{
+
+.designers-wrapper-two-rectangle4 {
     position: absolute;
     top: -14px;
     left: 315px;
 }
-.designers-wrapper-two-rectangle5{
+
+.designers-wrapper-two-rectangle5 {
     position: absolute;
     top: -21px;
     left: 628px;
 }
-.designers-wrapper-two-rectangle6{
+
+.designers-wrapper-two-rectangle6 {
     position: absolute;
     top: -14px;
     left: 615px;
+}
+
+@media only screen and (max-width: 1600px) {}
+
+@media only screen and (max-width: 1200px) {
+
+    .designers-wrapper {
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        height: 1184px;
+
+    }
+
+    .designers-wrapper-one {
+        width: 100%;
+        left: 0;
+        top: 169px;
+    }
+
+    .designers-wrapper-one h1 {
+        text-align: center;
+    }
+
+    .designers-wrapper-two {
+        align-items: center;
+        justify-content: space-between;
+        left: 0;
+        top: 369px;
+    }
+
+    .designers-wrapper-two {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    .designers-wrapper-two-card {
+
+        /* border: 1px solid black; */
+        /* margin-right: 30px; */
+        /* width: 267px;
+        height: 360px; */
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .designers-wrapper {
+        height: 1184px;
+    }
+}
+
+@media only screen and (max-width: 760px) {
+    .designers-wrapper {
+        height: 1184px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .designers-wrapper {
+        height: 1524px;
+    }
 }

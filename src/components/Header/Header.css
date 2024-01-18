@@ -20,12 +20,13 @@
 }
 
 .rectangle-5 {
+    border: 1px solid black;
     background-color: white;
     position: absolute;
     top: 85%;
     left: 65%;
     width: 332px;
-    height: 121px;
+    height: 181px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -53,8 +54,10 @@
 
 
     .rectangle-5 {
-        width: 21.2vw;
-        height: 12.8vh;
+        /* width: 21.2vw; */
+        /* height: 12.8vh; */
+           width: 332px;
+    height: 141px;
     }
 }
 
@@ -66,8 +69,8 @@
     }
 
     .rectangle-5 {
-        width: 21.2vw;
-        height: 8.8vh;
+        width: 332px;
+        height: 141px;
     }
 
     .rectangle-5-header {
@@ -87,8 +90,8 @@
     }
 
     .rectangle-5 {
-        width: 21.2vw;
-        height: 6.8vh;
+        width: 272px;
+        height:101px;
     }
 
     .rectangle-5-header {
@@ -107,8 +110,8 @@
     }
 
     .rectangle-5 {
-        width: 21.2vw;
-        height: 4.8vh;
+            width: 202px;
+            height:71px;
     }
 
     .rectangle-5-header {
@@ -127,9 +130,9 @@
     }
 
     .rectangle-5 {
-        top: 81%;
-        width: 21.2vw;
-        height: 4.8vh;
+        /* top: 81%; */
+        width: 162px;
+        height:61px;
     }
 
     .rectangle-5-header {
@@ -146,7 +149,11 @@
         font-size: 15px;
         font-weight: 300;
     }
-
+    .rectangle-5 {
+        /* top: 81%; */
+        width: 102px;
+        height:41px;
+    }
     .rectangle-5-header {
         width: 40px;
         height: 47px;

@@ -5,8 +5,12 @@ const Projects = () => {
   return (
     <div className="container projects-section-wrapper">
       <div className="projects-section-one">
-        <h1 className="projects-section-one-heading1">Our Latest</h1>
-        <h1 className="projects-section-one-heading2">Projects</h1>
+        <h1 className="projects-section-one-heading1">
+          Our Latest
+          <br />
+          Projects
+        </h1>
+        {/* <h1 className="projects-section-one-heading2">Projects</h1> */}
         <p className="projects-section-one-para">
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni et
           consequatur obcaecati harum deserunt sequi repellendus officiis eos ut
@@ -46,14 +50,20 @@ const Projects = () => {
         <p className="projects-section-one-more">View More</p>
       </div>
 
-      <div className="d-flex flex-wrap">
-        <div>
+      <div className="projects-section-two">
+        <div className="projects-section-two-cardone m-2">
           <div className="projects-section-two-bgimg1"></div>
-          <div className="projects-section-two-img1"></div><div className="projects-section-two-img1-gradiant"></div>
+          <div className="projects-section-two-img1">
+            {" "}
+            <h6 className="projects-section-two-heading1">lorem ipsam </h6>
+          </div>
+          <div className="projects-section-two-img1-gradiant"></div>
         </div>
-        <div>
+        <div className="projects-section-two-cardone m-2">
           <div className="projects-section-two-bgimg2"></div>
-          <div className="projects-section-two-img2"></div>
+          <div className="projects-section-two-img2">
+            <h6 className="projects-section-two-heading1">lorem ipsam </h6>
+          </div>
         </div>
       </div>
     </div>

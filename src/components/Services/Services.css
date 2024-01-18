@@ -7,29 +7,24 @@
     position: absolute;
     left: 0;
     top: 213px;
-
 }
-.services-wrapper-two{
+
+.services-wrapper-two {
     position: absolute;
     left: 0;
-    top: 513px; 
+    top: 513px;
+    width: 100%;
     display: flex;
-    /* justify-content: space-between; */
     flex-wrap: wrap;
-
-
 }
 
-.services-wrapper-two-card{
+.services-wrapper-two-card {
     display: flex;
     align-items: center;
     margin: 0 38px 130px 0;
-
-
-
 }
 
-.services-wrapper-one-heading1, .services-wrapper-one-heading2 {
+.services-wrapper-one-heading1 {
     color: var(--black-color);
     font-size: 45px;
     font-style: normal;
@@ -46,11 +41,13 @@
     margin-right: 40px;
 
 }
+
 .services-wrapper-two-heading1:hover {
     color: var(--yellow-color);
-  
+
 }
-.services-wrapper-two-card-add{
+
+.services-wrapper-two-card-add {
     margin-left: 170px;
 }
 
@@ -62,3 +59,81 @@
     line-height: normal;
 }
 
+
+@media only screen and (max-width: 1600px) {}
+
+@media only screen and (max-width: 1200px) {
+    .services-wrapper-two-card {
+        margin: 0 28px 90px 0;
+    }
+
+    .services-wrapper-two-heading1 {
+        font-size: 80px;
+        font-weight: 700;
+        /* margin-right: 40px; */
+
+    }
+
+    .services-wrapper-two {
+        flex-wrap: wrap;
+    }
+
+    .services-wrapper-two-card-add {
+        margin-left: 120px;
+        margin-top: 40px;
+    }
+
+}
+
+@media only screen and (max-width: 900px) {
+    .services-wrapper-one {
+        width: 100%;
+        top: 113px;
+    }
+
+    .services-wrapper-one-heading1 {
+        text-align: center;
+    }
+
+    .services-wrapper-two {
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        top: 313px;
+    }
+
+    .services-wrapper-two-card {
+        margin: 0 18px 30px 0;
+    }
+
+    .services-wrapper-two-card-add {
+        margin-left: 80px;
+    }
+}
+
+@media only screen and (max-width: 760px) {
+    .services-wrapper-one {
+        width: 100%;
+        top: 83px;
+    }
+    .services-wrapper-two {
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        top: 313px;
+    }
+
+    .services-wrapper-two-card {
+        margin: 0 18px 10px 0;
+    }
+
+    .services-wrapper-two-card-add {
+        margin-left: 40px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .services-wrapper-two-card {
+        margin: 0 0 10px 0;
+    }
+}
