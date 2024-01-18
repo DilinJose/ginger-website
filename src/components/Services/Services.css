@@ -15,7 +15,6 @@
     top: 513px;
     width: 100%;
     display: flex;
-    flex-wrap: wrap;
 }
 
 .services-wrapper-two-card {
@@ -116,6 +115,7 @@
         width: 100%;
         top: 83px;
     }
+
     .services-wrapper-two {
         flex-wrap: wrap;
         justify-content: center;
@@ -135,5 +135,9 @@
 @media only screen and (max-width: 480px) {
     .services-wrapper-two-card {
         margin: 0 0 10px 0;
+    }
+
+    .services-wrapper-two {
+        flex-wrap: wrap;
     }
 }
